@@ -1,0 +1,15 @@
+Assignment 1:-
+
+ini_lis1 = [1,2,3,4,5,7,8] 
+
+ini_lis2 = ["a","b","c" ,"d","e"]
+
+result = {v: ini_lis2[i % len(ini_lis2)]  
+
+          for i, v in enumerate(ini_lis1)} 
+
+  
+
+print("resultant dictionary : ", str(result))
+
+resultant dictionary :  {1: 'a', 2: 'b', 3: 'c', 4: 'd', 5: 'e', 7: 'a', 8: 'b'}
